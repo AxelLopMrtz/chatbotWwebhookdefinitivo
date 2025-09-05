@@ -126,7 +126,7 @@ async function startSock() {
       console.log("🔁 Enviando POST a n8n con:", payload);
 
       const resp = await axios.post(
-        'https://d085-187-190-175-227.ngrok-free.app/webhook/whatsapp', // <-- Cambia aquí si usas ngrok u otra ruta
+        'https://n8n-n8n.vy2xt2.easypanel.host/webhook/whatsapp', // <-- Cambia aquí si usas ngrok u otra ruta
         payload,
         { headers: { 'Content-Type': 'application/json' } }
       );
